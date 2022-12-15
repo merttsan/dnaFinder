@@ -6,7 +6,9 @@ class ViewController: UIViewController {
     @IBOutlet weak var resultLabel: UILabel!
     @IBOutlet weak var atgcLabel: UILabel!
     @IBOutlet weak var errorLabel: UILabel!
-    // temel değişkenler
+    //MARK: dsf
+    //TODO: sdf
+    //FIXME: sdf
     var allString = ""
     var someString = ""
     var someStringValue = -1
