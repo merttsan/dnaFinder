@@ -14,6 +14,7 @@
 		237012712943B57D00AC15A7 /* dnaFinder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2370126F2943B57D00AC15A7 /* dnaFinder.xcdatamodeld */; };
 		237012732943B57E00AC15A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 237012722943B57E00AC15A7 /* Assets.xcassets */; };
 		237012762943B57E00AC15A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 237012742943B57E00AC15A7 /* LaunchScreen.storyboard */; };
+		23C8A5A6294CD938001A0BA1 /* secondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C8A5A5294CD938001A0BA1 /* secondVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		237012722943B57E00AC15A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		237012752943B57E00AC15A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		237012772943B57E00AC15A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23C8A5A5294CD938001A0BA1 /* secondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				237012742943B57E00AC15A7 /* LaunchScreen.storyboard */,
 				237012772943B57E00AC15A7 /* Info.plist */,
 				2370126F2943B57D00AC15A7 /* dnaFinder.xcdatamodeld */,
+				23C8A5A5294CD938001A0BA1 /* secondVC.swift */,
 			);
 			path = dnaFinder;
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2370126B2943B57D00AC15A7 /* ViewController.swift in Sources */,
+				23C8A5A6294CD938001A0BA1 /* secondVC.swift in Sources */,
 				237012712943B57D00AC15A7 /* dnaFinder.xcdatamodeld in Sources */,
 				237012672943B57D00AC15A7 /* AppDelegate.swift in Sources */,
 				237012692943B57D00AC15A7 /* SceneDelegate.swift in Sources */,
