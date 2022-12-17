@@ -19,8 +19,7 @@ class ViewController: UIViewController {
             if let searchString = (searchTextLabel.text) {
                 let allString = allString.uppercased()
                 let searchString = searchString.uppercased()
-                // why?????
-                let allStringtrimmed = allString.trimmingCharacters(in: .whitespaces)
+                let allStringtrimmed = allString.replacingOccurrences(of: " ", with: "")
                 for _ in allStringtrimmed.components(separatedBy: "\(searchString)"){
                     someStringValue += 1
                 }
@@ -34,17 +33,6 @@ class ViewController: UIViewController {
                         alertInt += 1
                     }
                 }
-                /*
-                just delete
-                the text looks like whaat?
-                 
-                let showbox = UIAlertController(title: ".", message: "\(allStringtrimmed)", preferredStyle: UIAlertController.Style.alert)
-                let okbutton = UIAlertAction(title: ".", style: UIAlertAction.Style.default)
-                showbox.addAction(okbutton)
-                present(showbox, animated: true)
-                 
-                 */
-                
             }
         }
         else {
@@ -53,6 +41,7 @@ class ViewController: UIViewController {
         secondVCfunc()
     }
     
+    
     @objc func secondVCfunc () {
         let vc = storyboard?.instantiateViewController(withIdentifier: "secondVC") as! secondVC
         vc.modalPresentationStyle = .popover
@@ -60,21 +49,20 @@ class ViewController: UIViewController {
         vc.errorVC = alertInt
         vc.someStringValueVC = someStringValue
         present(vc , animated: true)
-        
         dnaArray = [0,0,0,0]
         alertInt = 0
         someStringValue = -1
     }
     
+    
     @objc func alert() {
-        let alert = UIAlertController(title: "Sonuç", message: "Bulunan Dizi : \(someStringValue)", preferredStyle: UIAlertController.Style.alert)
+        let alert = UIAlertController(title: "Test", message: "Test text", preferredStyle: UIAlertController.Style.alert)
         alert.addAction(UIAlertAction(title: "Ok", style: .cancel))
         present(alert, animated: true)
-        let copyButton = UIAlertAction(title: "Copy", style: UIAlertAction.Style.default) { UIAlertAction
+        /* let copyButton = UIAlertAction(title: "Copy", style: UIAlertAction.Style.default) { UIAlertAction
             in
-            UIPasteboard.general.string = String(self.someStringValue)
+            UIPasteboard.general.string = String(self.someStringValue) + " Adet eşleşme bulundu."
+        alert.addAction(copyButton) */
         }
-        alert.addAction(copyButton)
+ 
     }
-    
-}

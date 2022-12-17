@@ -41,7 +41,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="tertiarySystemBackgroundColor"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="fmu-U6-ji1" secondAttribute="trailing" constant="20" id="12e-o9-LIA"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="pYb-mg-TC9" secondAttribute="trailing" constant="20" id="4I2-Tc-If0"/>
@@ -73,7 +73,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RT5-zb-eAy">
-                                <rect key="frame" x="20" y="274" width="41.5" height="111"/>
+                                <rect key="frame" x="20" y="274" width="374" height="111"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="111" id="Cyp-8M-EgZ"/>
                                     <constraint firstAttribute="width" constant="111" id="m5w-xS-GdT"/>
@@ -83,7 +83,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vmm-uM-TGO">
-                                <rect key="frame" x="20" y="392.5" width="41.5" height="111"/>
+                                <rect key="frame" x="20" y="392.5" width="374" height="111"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="111" id="QBo-ov-goC"/>
                                 </constraints>
@@ -92,7 +92,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uKI-um-3qG">
-                                <rect key="frame" x="20" y="511.5" width="41.5" height="111"/>
+                                <rect key="frame" x="20" y="511.5" width="374" height="111"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="111" id="O3a-yH-1LV"/>
                                     <constraint firstAttribute="height" constant="111" id="Reh-kP-oWO"/>
@@ -103,7 +103,7 @@
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="OGg-SV-ggf"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" systemColor="secondarySystemGroupedBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="RT5-zb-eAy" firstAttribute="top" secondItem="OGg-SV-ggf" secondAttribute="top" constant="226" id="1Bd-5x-SJe"/>
                             <constraint firstItem="uKI-um-3qG" firstAttribute="leading" secondItem="OGg-SV-ggf" secondAttribute="leading" constant="20" id="CE6-fJ-xb0"/>
@@ -128,10 +128,10 @@
         </scene>
     </scenes>
     <resources>
-        <systemColor name="systemBackgroundColor">
+        <systemColor name="secondarySystemGroupedBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
-        <systemColor name="tertiarySystemBackgroundColor">
+        <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
     </resources>

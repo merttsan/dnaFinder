@@ -296,7 +296,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 7TCP73AM32;
+				DEVELOPMENT_TEAM = 7Q7724B5L3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = dnaFinder/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = dnaFinder;
@@ -328,7 +328,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 7TCP73AM32;
+				DEVELOPMENT_TEAM = 7Q7724B5L3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = dnaFinder/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = dnaFinder;

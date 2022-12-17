@@ -21,8 +21,19 @@ class secondVC: UIViewController {
         errorLabel.text = "Hatalı Karakter: \(errorVC)"
         resultLabel.text = "Eşleşen Arama: \(someStringValueVC)"
         
+        let twoTapped = UITapGestureRecognizer(target: self, action: #selector(tTapped(_:)))
+        twoTapped.numberOfTapsRequired = 1
+        twoTapped.numberOfTouchesRequired = 1
+        resultLabel.isUserInteractionEnabled = true
+        errorLabel.isUserInteractionEnabled = true
+        atgcLable.isUserInteractionEnabled = true
+        resultLabel.addGestureRecognizer(twoTapped)
+        atgcLable.addGestureRecognizer(twoTapped)
+        errorLabel.addGestureRecognizer(twoTapped)
 
     }
     
-
+    @objc func tTapped (_ gesture: UITapGestureRecognizer) {
+        UIPasteboard.general.string = String(self.someStringValueVC) + " Adet eşleşme bulundu."
+    }
 }
