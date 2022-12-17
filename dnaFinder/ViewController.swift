@@ -19,10 +19,13 @@ class ViewController: UIViewController {
             if let searchString = (searchTextLabel.text) {
                 let allString = allString.uppercased()
                 let searchString = searchString.uppercased()
-                for _ in allString.components(separatedBy: "\(searchString)"){
+                // why?????
+                let allStringtrimmed = allString.trimmingCharacters(in: .whitespaces)
+                for _ in allStringtrimmed.components(separatedBy: "\(searchString)"){
                     someStringValue += 1
                 }
-                for i in allString {
+                
+                for i in allStringtrimmed {
                     if i == "A" {dnaArray[0] += 1}
                     else if i == "T" {dnaArray[1] += 1}
                     else if i == "G" {dnaArray[2] += 1}
@@ -31,6 +34,17 @@ class ViewController: UIViewController {
                         alertInt += 1
                     }
                 }
+                /*
+                just delete
+                the text looks like whaat?
+                 
+                let showbox = UIAlertController(title: ".", message: "\(allStringtrimmed)", preferredStyle: UIAlertController.Style.alert)
+                let okbutton = UIAlertAction(title: ".", style: UIAlertAction.Style.default)
+                showbox.addAction(okbutton)
+                present(showbox, animated: true)
+                 
+                 */
+                
             }
         }
         else {
